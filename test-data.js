@@ -96,7 +96,7 @@ const sections = [
       {
         "id": "B1",
         "type": "input",
-        "prompt": "1. f _ _ w",
+        "prompt": "1. f _ o _",
         "answers": [
           "flow"
         ],
@@ -107,7 +107,7 @@ const sections = [
       {
         "id": "B2",
         "type": "input",
-        "prompt": "2. h _ _ t",
+        "prompt": "2. _ e _ t",
         "answers": [
           "heat"
         ],
@@ -118,7 +118,7 @@ const sections = [
       {
         "id": "B3",
         "type": "input",
-        "prompt": "3. f _ _ _ z e",
+        "prompt": "3. f _ e _ z _",
         "answers": [
           "freeze"
         ],
@@ -532,7 +532,7 @@ const sections = [
   {
     "key": "I",
     "label": "I",
-    "title": "Look and write the words.",
+    "title": "Look at the pictures. Look at the letters. Write the words.",
     "note": "Write the food shown in each picture.",
     "points": 3,
     "questions": [
