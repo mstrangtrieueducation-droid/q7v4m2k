@@ -49,7 +49,7 @@
     event.preventDefault();
     const name = gate.querySelector("#studentEnglishName").value.trim().replace(/\s+/g, " ");
     const className = gate.querySelector("#studentClass").value;
-    if (name.length < 2 || !(config.classes || []).includes(className)) {
+    if (name.length < 2 || !((config.classes || []).includes(className) || window.MTTProfileClassAllowed?.(className) === true)) {
       gate.querySelector(".student-gate-error").hidden = false;
       return;
     }
